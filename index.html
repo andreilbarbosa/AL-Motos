@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="pt-brn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AL MOTOS</title>
+    <link rel="stylesheet" href="./main.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+</head>
+<body>
+    <header>
+        <div class="container container-flex">
+            <div class="titulo">
+                <h1>AL Motos</h1>
+                <h3>As melhores motos você encontra aqui!</h3>
+            </div>
+            <div class="menu-hamburguer">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+        <nav>
+            <div class="container">
+                <ul>
+                    <li>
+                        <a href="#sobre" id="buttonSobre">Sobre a Loja</a>
+                    </li>
+                    <li>
+                        <a href="#promo" id="buttonPromo">Promoções</a>
+                    </li>
+                    <li>
+                        <a href="#contato" id="buttonContato">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div id="carrossel">
+            <img src="./images/bike-909690_1280.jpg" />
+            <img src="./images/honda-chopper-5940580_1280.jpg" />
+            <img src="./images/motorcycle-4562069_1280.jpg"/>
+        </div>
+        <section id="sobre">
+            <div class="container-flex">
+                <div class="sobre-informa">
+                    <h2>Nos conheça melhor</h2>
+                    <h4>Somos uma loja de motos originais e customizadas em ascensão no mercado.</br> Nosso maior compromisso é com o desejo e realização do cliente, cumprindo com suas necessidades.</br> Aqui você encontra modelos das marcas <b>Royal Enfield</b>, <b>Harley-Davidson</b>, <b>Suzuki</b>, entre outros clássicos.</h4>
+                    <ul>
+                        <li>
+                            <img src="./logos/harley.png" alt="Logo da marca Harley-Davidson" />
+                        </li>
+                        <li>
+                            <img src="./logos/honda.png" alt="Logo da marca honda" />
+                        </li>
+                        <li>
+                            <img src="./logos/royal.png" alt="Logo da marca Royal-Enfield" />
+                        </li>
+                        <li>
+                            <img src="./logos/suzuki.png" alt="Logo da marca Suzuki" />
+                        </li>
+                    </ul>
+                </div>
+                <img src="./loja/img_loja.png" id="foto-loja" alt="imagem da loja"/>
+            </div>
+        </section>
+        <section id="promo">
+            <div class="container">
+                <h1>Promoções</h1>
+                <ul class="veiculosPromo">
+                    <li>
+                        <h4 class="nomes">Royal Enfield 2021</h4>
+                        <img src="./promoções/royal.png" alt="Moto Royal Enfield 2021"/>
+                        <div class="precos">
+                            <del>R$20.000</del>
+                            <p class="preco-novo">R$18.400</p>
+                        </div>
+                        <button type="button">Quero esta!</button>
+                    </li>
+                    <li class="item-central">
+                        <h4 class="nomes">Honda Retrô 1995</h4>
+                        <img src="./promoções/Honda.png" alt="Moto Honda Retrô 1995"/>
+                        <div class="precos">
+                            <del>R$18.000</del>
+                            <p class="preco-novo">R$16.700</p>
+                        </div>
+                        <button type="button">Quero esta!</button>
+                    </li>
+                    <li>
+                        <h4 class="nomes">Harley-Davidson 2023</h4>
+                        <img src="./promoções/harley.png" alt="Moto Harley-Davidson 2023"/>
+                        <div class="precos">
+                            <del>R$27.000</del>
+                            <p class="preco-novo">R$25.800</p>
+                        </div>
+                        <button type="button">Quero esta!</button>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section id="contato">
+            <div class="container container-flex">
+                <div class="tituloForm">
+                    <h1>Entre em contato</h1>
+                    <form id="form">
+                        <label for="name">Nome:</label>
+                        <input type="text" id="name" name="nome" />
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email" />
+                        <label for="telefone">Telefone para contato:</label>
+                        <input type="tel" id="telefone" name="telefone" />
+                        <label for="interesse">Interessado:</label>
+                        <input type="text" id="interesse" name="interesse" />
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
+                <div class="imgLoja">
+                    <img src="./loja/loja_dentro.png" alt="Imagem da loja por dentro" />
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="container container-flex">
+            <p>
+                2025 &copy; AL Motos - Todos os direitos reservados 
+            </p>
+            <div class="images">
+                <a href="#">
+                    <img src="./social/facebook.png" alt="Logo do Facebook" />
+                </a>
+                <a href="#">
+                    <img src="./social/instagram.png" alt="Logo do Instagram" />
+                </a>
+                <a href="#">
+                    <img src="./social/youtube.png" alt="Logo do Youtube" />
+                </a>
+            </div>
+        </div>
+
+    </footer>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="./JS/jquery.mask.min.js"></script>
+    <script src="./JS/jquery.validate.min.js"></script>
+    <script src="./JS/messages_pt_PT.min.js"></script>
+    <script src="./JS/main.js"></script>
+</body>
+</html>
