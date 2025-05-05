@@ -1,6 +1,8 @@
 $(document).ready(function(){
     $("#carrossel").slick({
-        autoplay: true
+        autoplay: true,
+        autoplaySpeed: 1500,
+        speed: 400
     })
 
     $('.menu-hamburguer').click(function(){
@@ -31,7 +33,9 @@ $(document).ready(function(){
         }, 0o700)
     })
 
-    $('#telefone').mask('(00) 00000-0000')
+    $('#telefone').mask('(00) 00000-0000',{
+        placeholder:'(00) 00000-0000'
+    })
 
     $('form').validate({
         rules: {
