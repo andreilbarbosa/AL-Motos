@@ -1,14 +1,14 @@
-## Atividade para praticar com os Plugins jQuery.
+## Projeto para praticar minhas habilidades com o conhecimento adquirido no módulo Plugins jQuery.
 ### Curso Front End Developer - EBAC 
 
-A entrega deste exercício consiste em deixar o projeto disponível no link do GitHub funcional, com:
+Fiz este projeto para praticar minhas habilidades com o jQuery e os plugins apresentado no Módulo. O exercício consiste em:
 
-> o carousel funcionando em slides;
+> Ter um carousel funcionando em slides;
 
-> a validação;
+> Validação do formulário;
 
-> máscaras operativas.
+> máscaras operativas;
 
-#### Demorei um pouco na entrega do exercício pois tentei deixar o projeto mais original e criar uma loja de Motos com algumas promoções disponíveis.
+#### Procurei fazer um projeto mais original e criar uma loja de Motos com algumas promoções disponíveis.
 
 ##### Link Vercel: https://exercicio-plugins-jquery-ten-psi.vercel.app
