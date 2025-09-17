@@ -9,6 +9,6 @@ Fiz este projeto para praticar minhas habilidades com o jQuery e os plugins apre
 
 > máscaras operativas;
 
-#### Procurei fazer um projeto mais original e criar uma loja de Motos com algumas promoções disponíveis.
+#### Procurei fazer um projeto mais original e criar uma loja de Motos com algumas promoções disponíveis. A loja é a AL Motos 🏍
 
 ##### Link Vercel: https://exercicio-plugins-jquery-ten-psi.vercel.app
